@@ -1,0 +1,200 @@
+*{box-sizing: border-box;
+    font-family:'Segoe UI', sans-serif;
+    margin: 0;
+    padding:0;
+    color:rgb(255, 255, 255);}
+
+.nav-wrap{background:#14181f;
+    box-shadow:0 2px 4px #000000;
+    position:fixed;
+    top:0;
+    width:100%;
+    z-index:1000;}
+
+.container{padding:24px;
+    max-width: 1100px;
+    margin:auto;
+    width:100%}
+
+.nav{display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:12px 0}
+
+.brand{display:flex end;
+    font-size:24px;
+    font-weight: 100; 
+    color:#ffffff;
+    font-weight: bold;
+    margin-left:0px;}
+
+.brand span{color:#5392aa;
+    font-weight: bold}
+
+nav a{margin-left: 1cm;
+    font-size: 16px;
+    gap:5px;
+    text-decoration:none;}
+
+.first-section{background:linear-gradient(180deg,#121216 0%, #0d132b 100%);
+     padding: 100px 0;
+     align-items: center;
+     height:20cm}
+
+.btn{display:inline-block;
+    padding:10px 20px;
+    background-color:#5392aa;
+    color:#ffffff;
+     border-radius: 5px;
+     text-decoration: none;}
+
+.btn.big{box-shadow: 2px 4px 6px  #ffffff;
+    transition:transform 0.5s ease-in-out;
+    text-decoration:none;
+    font-weight: bold;
+    background-color:#5392aa;
+    color: #ffffff;
+    padding:15px 30px;
+    border-radius: 5px;}
+
+.btn.big:hover{transform:scale(1.05);}
+
+.first-inner{ display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    gap: 40px;}
+
+.first-img{transition:transform 2s;
+    flex:1;display:flex end;
+    position:absolute;
+    margin-top: 4cm;
+    margin-left: 16cm;}
+
+:hover .first-img{transform:rotateY(180deg);}
+
+.first-text h1{text-shadow: 0 0 2px #fff, 0 0 4px #fff, 0 0 14px ;
+    font-size:40px;
+    margin-bottom:20px;
+    margin-top:5cm;
+    margin-right:16cm;}
+
+.first-text p{font-size:20px;
+    margin-bottom:30px;
+    color:rgb(226, 217, 217);
+    margin-right:16cm}
+
+.section{padding:60px 0;
+    text-align:center;
+    background-color:#0c121e}
+
+.section.alt{background-color:#0b1025}
+
+.section.alt a{background-color:#5392aa;
+    color:#ffffff;
+    padding:15px 30px;
+    border-radius: 5px;
+    text-decoration:none;
+    font-weight:bold;}
+
+
+.stats{margin-top: 24px;
+    display: flex;
+    justify-content: center;
+    gap: 24px;}
+
+.stats > div{transition:transform 0.3s ease-in-out;
+    background-color:#5392aa;
+    padding:20px 30px;
+    border-radius: 8px;}
+
+.stats > div:hover{transform:scale(1.03);}
+
+.container h2{background-color: #3a415d;
+    font-size:32px;
+    margin-bottom:40px;
+    margin-left:1px;
+    margin-top: 20px;}
+
+.container p{font-size:16px;
+    line-height:1.6;
+    margin-bottom:40px;
+    color:rgb(226, 217, 217);}
+
+.card{background-color:#0b1025;
+    padding:40px;
+    border-radius: 20px;
+    box-shadow:0 8px 20px rgb(255, 255, 255);
+    transition: transform 0.5s;}
+
+.card:hover{transform:scaleX(1.05)}
+
+.Avatar{border-radius: 50%;
+    width:30px;
+    height:30px;
+    background-color:#5392aa;}
+
+.team-grid{display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:18px;
+    margin-top:18px}
+
+.member{display:flex;
+    flex-direction: column;
+    width:300px;
+    height:200px;
+    background-color:#0b1025;
+    padding:40px;
+    border-radius: 20px;
+    box-shadow:0 4px 12px rgb(255, 255, 255);
+    transition: transform 0.3s;}
+
+.member:hover{transform:scale(1.05);}
+
+.contact.form{display:flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:20px;
+    max-width: 500px;
+    align-items: center;
+   margin:0 auto}
+
+
+.contact.form input,.contact.form textarea{padding:12px;
+    width:500px;
+    border-radius: 5px;
+    box-shadow: 0 3px 8px #fff;
+    background-color:#14181f;
+    color:#fff;
+    transition:transform 0.5s;
+justify-content: center;
+    align-items: center;}
+
+.contact.form input:hover,.contact.form textarea:hover{transform:scaleX(1.05)}
+
+.btn.send{background-color: #5392aa;
+    color:#ffffff;
+    padding:12px ;
+    border-radius: 5px;
+    width:500px;
+    font-weight: bold;}
+
+   .footer {
+    background-color: #000;
+    padding: 20px 0;
+    color: #fff;}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    gap:40px ;
+    padding: 0 20px;
+    height: 60px;}
+
+.social a {
+    color: #5392aa;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 0px;}
+
