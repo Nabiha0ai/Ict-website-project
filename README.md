@@ -77,7 +77,7 @@ A static, responsive website for the **FCIT Robotics Society**, showcasing the s
 
 ---
 
-## 📝 Notes
+##  Notes
 
 * Designed as a static informational website
 * Easily extendable with backend form handling
@@ -85,12 +85,12 @@ A static, responsive website for the **FCIT Robotics Society**, showcasing the s
 
 ---
 
-## 👤 Author
+##  Author
 
 **FCIT Robotics Society**
 Email: [Nabiharehmat034@gmail.com](mailto:Nabiharehmat034@gmail.com)
 
 ---
 
-© 2025 FCIT Robotics Society. All rights reserved.
+
 
